@@ -1,3 +1,1 @@
-django<1.12
-selenium<4
-pylint-django
+django==1.11
