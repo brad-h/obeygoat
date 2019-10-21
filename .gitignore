@@ -6,3 +6,5 @@ __pycache__
 *.pyc/
 /static
 .env
+FT-Staging.ps1
+Local-Server.ps1
