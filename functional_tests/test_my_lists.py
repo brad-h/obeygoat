@@ -41,7 +41,7 @@ class MyListsTest(FunctionalTest):
         # She sees that her list is in there, named according to its
         # first list item
         self.wait_for(
-            lambda: self.browser.find_element_by_link_text("Reticulate splines")
+            lambda: self.browser.find_element_by_link_text("Reticulate splines").click()
         )
         self.wait_for(
             lambda: self.assertEqual(self.browser.current_url, first_list_url)
